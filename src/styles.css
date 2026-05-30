@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(132, 238, 166);
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 128px;
+  line-height: 100%;
+  letter-spacing: 1%;
+}
