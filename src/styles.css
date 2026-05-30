@@ -1,12 +1,71 @@
 body {
-  background-color: rgb(132, 238, 166);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/arirang-drum.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 
-h1 {
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+header {
+  color: white;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/hero.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+/* BTS */
+header h1 {
   font-family: "Playfair Display";
   font-weight: 700;
-  font-style: Bold;
-  font-size: 128px;
-  line-height: 100%;
-  letter-spacing: 1%;
+  font-size: 100px;
+  line-height: 1.5;
+  margin: 0;
+}
+/* bangtan tekst */
+header h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+}
+/* music */
+header h4 {
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 230px;
+  margin-bottom: -15px;
+}
+/* button */
+header a {
+  color: white;
+  background-color: #FF1240;
+  border-radius: 35px;
+  padding: 12px 26px;
+  display: inline-block;
+  margin-top: 32px;
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration: none;
 }
