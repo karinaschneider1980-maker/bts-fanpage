@@ -4,7 +4,7 @@ body {
     url("../images/arirang-drum.jpeg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .container {
@@ -58,7 +58,7 @@ header h4 {
 /* button */
 header a {
   color: white;
-  background-color: #FF1240;
+  background-color: #ff1240;
   border-radius: 35px;
   padding: 12px 26px;
   display: inline-block;
@@ -68,4 +68,26 @@ header a {
   font-size: 14px;
   line-height: 1;
   text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+
+  header h2 {
+    font-size: 14px;
+  }
+
+  header h4 {
+    margin-top: 100px;
+  }
+
+  .logo {
+    width: 50px;
+  }
 }
